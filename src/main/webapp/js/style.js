@@ -7,7 +7,7 @@ var finderStyle = function(feature, resolution){
         image: new ol.style.Circle({
           radius: radius,
           fill: new ol.style.Fill({
-            color: 'rgba(10,87,150,.7)'
+            color: '#1771b7'
           }),
           stroke: new ol.style.Stroke({
             color: '#fff',
