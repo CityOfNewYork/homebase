@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openlayers/4.3.2/ol.css">
 	<link rel="stylesheet" href="https://maps.nyc.gov/nyc-lib/v0.5.2/css/nyc-ol-lib.css">
-	<link rel="stylesheet" href="https://maps.nyc.gov/nyc-lib/v0.5.2/css/nyc-finder.css">
+	<link rel="stylesheet" href="css/nyc-finder.css">
 	<link rel="stylesheet" href="css/homebase.css">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
@@ -99,7 +99,7 @@
 				directionsUrl: 'https://maps.googleapis.com/maps/api/js?sensor=false&libraries=visualization'
 			});
 
-			$('.z-srch input').attr('placeholder', 'Search for an address or ZIP Code')
+			$('.z-srch input').attr('placeholder', 'Address or ZIP Code')
 
 			var finderLyr = new ol.layer.Vector({
 		    source: finderSource,
