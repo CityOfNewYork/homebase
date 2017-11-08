@@ -48,8 +48,8 @@ task replaceTokens(dependsOn: [setEnv, copyFiles]) << {
   if (project.hasProperty("homebase.${env}.google.url")){
     ant.replace(file: "build/${ver}/index.html", token: project.ext['homebase.git.google.url'], value: project.ext["homebase.${env}.google.url"])
 	}
-  if (project.hasProperty('homebase.analytics')){
-		ant.replace(file: "build/${ver}/index.html", token: '/* google analytics */', value: project.ext['homebase.analytics'])
+  if (project.hasProperty("homebase.${env}.analytics")){
+		ant.replace(file: "build/${ver}/index.html", token: '<!-- google analytics -->', value: project.ext["homebase.${env}.analytics"])
 	}
 }
 
