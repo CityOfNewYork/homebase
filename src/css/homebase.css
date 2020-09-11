@@ -1,0 +1,4 @@
+.tabs button.btn.active:focus, .tabs button.btn.active:focus * {
+  background-color: var(--focus-ring-color);
+  color: black;
+}
