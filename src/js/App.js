@@ -22,13 +22,14 @@ class App extends FinderApp {
         y: 'Latitude',
         dataProjection: 'EPSG:4326'
       }),
-      facilityUrl: homebase.FACILITY_CSV_URL,
+      facilityUrl: homebase.FACILITY_URL,
 			geoclientUrl: homebase.GEOCLIENT_URL,
 			directionsUrl: homebase.DIRECTIONS_URL,
 			splashOptions: {
 				message: 'Homebase splash message',
 				buttonText: ['Screen reader instructions', 'View map']
-			}
+			},
+      facilitySearch: { displayField: 'search_label', nameField: 'search_name' },
     })
   }
 }
