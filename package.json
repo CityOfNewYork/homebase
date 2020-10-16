@@ -1,6 +1,6 @@
 {
   "name": "homebase",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/CityOfNewYork/homebase#readme",
   "dependencies": {
     "jquery": "^3.3.1",
-    "nyc-lib": "^1.4.21",
+    "nyc-lib": "^1.4.23",
     "ol": "6.1.0",
     "papaparse": "^4.5.1",
     "proj4": "^2.4.4"
